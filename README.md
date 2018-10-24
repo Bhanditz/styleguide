@@ -14,6 +14,8 @@ Styleguide development is done on files within the /source/ directory of this pr
 1. Generate and/or update the /source/css/ directory and its css
    1. initially the /source/css directory does not exist
    1. assuming that [compass](http://compass-style.org/install/ "compass install page") has already been installed, from the root of the working directory run `compass compile source/`
+1. Make sure you have Composer installed [globally](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx)
+1. Run `composer install`
 1. Generate and/or update the /public/ directory and its site assets and launch a server
    1. from the root of the working directory run `php core/console --server --with-watch`
    1. the styleguide will now be available at `http://localhost:8080/`
